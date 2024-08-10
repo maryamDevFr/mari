@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.4s linear;
+    font-family: "Mulish", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    margin-top: 46px;
+    margin-bottom: 91px;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar ul li {
+    cursor: pointer;
+}
+.healthcare__wrapper{
+    display: flex;
+}
+.healthcare__inf{
+    max: width 197px; 
+    width: 400px;
+    height: 500px;  
+}
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    background-color:  #458FF6;
+}
+
+.subtitle {
+    text-align: center;
+    max-width: 940px;
+}
+.title{
+    text-align: center;
+    margin-bottom: 61px;
+}
+.subtitle {
+    text-align: center;
+    margin-bottom: 37px;
+}
+.ustoz{
+    color: white; 
+    border-radius: 50px;
+    width: calc(33% - 13.333px);
+    padding: 69px 39px 29px;
+}
+
+.ustoz__active {
+    background-color:  #5A98F2;
+}
+.m{
+    background-color:  #5A98F2;
+    color: white;
+}
+.wrapper__box{
+    display: flex;
+    color: black;
+    background-color: white;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 40px;
+    flex-wrap: wrap;
+}
+h2{
+    color: black;
+  
+}
+p{
+    color: black;
+    
+}
+.me{
+   background-color:rgba(145, 139, 139, 0.473) ;
+   width: calc(33% - 13.333px);
+   padding: 69px 39px 29px;
+   border-radius: 50px;
+}
+.and{
+    background-color:rgba(145, 139, 139, 0.473) ;
+    width: calc(33% - 13.333px);
+    padding: 69px 39px 29px;
+    border-radius: 50px;  
+}
+.you{
+    background-color:rgba(145, 139, 139, 0.473) ;
+    width: calc(33% - 13.333px);
+    padding: 69px 39px 29px;
+    border-radius: 50px;   
+}
+.wow{
+    background-color:rgba(145, 139, 139, 0.473) ;
+    width: calc(33% - 13.333px);
+    padding: 69px 39px 29px;
+    border-radius: 50px;   
+
+}
+.white{
+    color:  #5A98F2;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #458FF6;
+}
+
+.boxes__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.your{
+    text-align: center;
+}
+.wrapper__info{
+    display: flex;
+    align-items: center;
+}
+.black{
+    color:  #5A98F2;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #458FF6;
+}
